@@ -7,16 +7,23 @@
 //
 
 #import "AppDelegate.h"
-
+#import "VXProtocols.h"
+#import <Objection.h>
 @interface AppDelegate ()
-
 @end
-
 @implementation AppDelegate
-
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = ({
+        UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        window.backgroundColor = [UIColor whiteColor];
+        
+        UIViewController <VXFirstViewControllerProtocol> *firstVC = [[JSObjection defaultInjector] getObject:@protocol(VXFirstViewControllerProtocol)];
+        UINavigationController *fistNavController = [[UINavigationController alloc] initWithRootViewController:firstVC];
+        window.rootViewController = fistNavController;
+        window;
+    });
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

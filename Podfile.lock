@@ -1,0 +1,12 @@
+PODS:
+  - Objection (1.6.1)
+
+DEPENDENCIES:
+  - Objection
+
+SPEC CHECKSUMS:
+  Objection: ed03f2219cb22d2b5b893114219fe6c7e3263bde
+
+PODFILE CHECKSUM: d34b082f18806ea0dd40244de2709daa90daa0d7
+
+COCOAPODS: 1.1.1

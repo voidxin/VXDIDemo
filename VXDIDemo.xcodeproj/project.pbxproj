@@ -13,6 +13,12 @@
 		5B1441431E5DD95700056DE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1441411E5DD95700056DE8 /* Main.storyboard */; };
 		5B1441451E5DD95700056DE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B1441441E5DD95700056DE8 /* Assets.xcassets */; };
 		5B1441481E5DD95700056DE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1441461E5DD95700056DE8 /* LaunchScreen.storyboard */; };
+		5B1441541E5DE74300056DE8 /* VXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1441531E5DE74300056DE8 /* VXBaseViewController.m */; };
+		5B1441571E5DE78500056DE8 /* VXFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1441561E5DE78500056DE8 /* VXFirstViewController.m */; };
+		5B14415A1E5DE80A00056DE8 /* VXSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1441591E5DE80A00056DE8 /* VXSecondViewController.m */; };
+		5B14415D1E5DE84F00056DE8 /* VXFirstModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B14415C1E5DE84F00056DE8 /* VXFirstModule.m */; };
+		5B1441611E5DEA4200056DE8 /* VXSecondModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1441601E5DEA4200056DE8 /* VXSecondModule.m */; };
+		9067DD525A4F549F8B1F71C1 /* libPods-VXDIDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B26ECAB3695A581A1FB9D10 /* libPods-VXDIDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,20 @@
 		5B1441441E5DD95700056DE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B1441471E5DD95700056DE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B1441491E5DD95700056DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B14414F1E5DE55C00056DE8 /* VXProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VXProtocols.h; sourceTree = "<group>"; };
+		5B1441521E5DE74300056DE8 /* VXBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXBaseViewController.h; sourceTree = "<group>"; };
+		5B1441531E5DE74300056DE8 /* VXBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXBaseViewController.m; sourceTree = "<group>"; };
+		5B1441551E5DE78500056DE8 /* VXFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXFirstViewController.h; sourceTree = "<group>"; };
+		5B1441561E5DE78500056DE8 /* VXFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXFirstViewController.m; sourceTree = "<group>"; };
+		5B1441581E5DE80A00056DE8 /* VXSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXSecondViewController.h; sourceTree = "<group>"; };
+		5B1441591E5DE80A00056DE8 /* VXSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXSecondViewController.m; sourceTree = "<group>"; };
+		5B14415B1E5DE84F00056DE8 /* VXFirstModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXFirstModule.h; sourceTree = "<group>"; };
+		5B14415C1E5DE84F00056DE8 /* VXFirstModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXFirstModule.m; sourceTree = "<group>"; };
+		5B14415F1E5DEA4200056DE8 /* VXSecondModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXSecondModule.h; sourceTree = "<group>"; };
+		5B1441601E5DEA4200056DE8 /* VXSecondModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXSecondModule.m; sourceTree = "<group>"; };
+		5B26ECAB3695A581A1FB9D10 /* libPods-VXDIDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VXDIDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C690B6BBB1D461BBD6B983C0 /* Pods-VXDIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VXDIDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VXDIDemo/Pods-VXDIDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F548CF32F12E45F7DA845589 /* Pods-VXDIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VXDIDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VXDIDemo/Pods-VXDIDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9067DD525A4F549F8B1F71C1 /* libPods-VXDIDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5511888635DF08D1EDA7DB6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F548CF32F12E45F7DA845589 /* Pods-VXDIDemo.debug.xcconfig */,
+				C690B6BBB1D461BBD6B983C0 /* Pods-VXDIDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5B14412C1E5DD95700056DE8 = {
 			isa = PBXGroup;
 			children = (
 				5B1441371E5DD95700056DE8 /* VXDIDemo */,
 				5B1441361E5DD95700056DE8 /* Products */,
+				5511888635DF08D1EDA7DB6F /* Pods */,
+				6563CE8DE9EF84359CDFFB60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +92,9 @@
 			children = (
 				5B14413B1E5DD95700056DE8 /* AppDelegate.h */,
 				5B14413C1E5DD95700056DE8 /* AppDelegate.m */,
-				5B14413E1E5DD95700056DE8 /* ViewController.h */,
-				5B14413F1E5DD95700056DE8 /* ViewController.m */,
+				5B14415E1E5DE9CE00056DE8 /* Module */,
+				5B1441501E5DE5DC00056DE8 /* Procotols */,
+				5B1441511E5DE5F500056DE8 /* Controllers */,
 				5B1441411E5DD95700056DE8 /* Main.storyboard */,
 				5B1441441E5DD95700056DE8 /* Assets.xcassets */,
 				5B1441461E5DD95700056DE8 /* LaunchScreen.storyboard */,
@@ -79,6 +112,48 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5B1441501E5DE5DC00056DE8 /* Procotols */ = {
+			isa = PBXGroup;
+			children = (
+				5B14414F1E5DE55C00056DE8 /* VXProtocols.h */,
+			);
+			name = Procotols;
+			sourceTree = "<group>";
+		};
+		5B1441511E5DE5F500056DE8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B1441521E5DE74300056DE8 /* VXBaseViewController.h */,
+				5B1441531E5DE74300056DE8 /* VXBaseViewController.m */,
+				5B1441551E5DE78500056DE8 /* VXFirstViewController.h */,
+				5B1441561E5DE78500056DE8 /* VXFirstViewController.m */,
+				5B1441581E5DE80A00056DE8 /* VXSecondViewController.h */,
+				5B1441591E5DE80A00056DE8 /* VXSecondViewController.m */,
+				5B14413E1E5DD95700056DE8 /* ViewController.h */,
+				5B14413F1E5DD95700056DE8 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5B14415E1E5DE9CE00056DE8 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				5B14415B1E5DE84F00056DE8 /* VXFirstModule.h */,
+				5B14415C1E5DE84F00056DE8 /* VXFirstModule.m */,
+				5B14415F1E5DEA4200056DE8 /* VXSecondModule.h */,
+				5B1441601E5DEA4200056DE8 /* VXSecondModule.m */,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+		6563CE8DE9EF84359CDFFB60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B26ECAB3695A581A1FB9D10 /* libPods-VXDIDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B14414C1E5DD95700056DE8 /* Build configuration list for PBXNativeTarget "VXDIDemo" */;
 			buildPhases = (
+				AB69CAF386DDA2C3598C1834 /* [CP] Check Pods Manifest.lock */,
 				5B1441311E5DD95700056DE8 /* Sources */,
 				5B1441321E5DD95700056DE8 /* Frameworks */,
 				5B1441331E5DD95700056DE8 /* Resources */,
+				A326163E8162F0141272B56A /* [CP] Embed Pods Frameworks */,
+				A92C2C0030E8FDBE2950C6BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,11 +183,13 @@
 		5B14412D1E5DD95700056DE8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = VX;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = voidxin;
 				TargetAttributes = {
 					5B1441341E5DD95700056DE8 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = XZ5PNLT2U8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -145,13 +225,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A326163E8162F0141272B56A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VXDIDemo/Pods-VXDIDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A92C2C0030E8FDBE2950C6BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VXDIDemo/Pods-VXDIDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB69CAF386DDA2C3598C1834 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B1441311E5DD95700056DE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5B1441401E5DD95700056DE8 /* ViewController.m in Sources */,
+				5B14415D1E5DE84F00056DE8 /* VXFirstModule.m in Sources */,
+				5B1441541E5DE74300056DE8 /* VXBaseViewController.m in Sources */,
+				5B1441611E5DEA4200056DE8 /* VXSecondModule.m in Sources */,
+				5B14415A1E5DE80A00056DE8 /* VXSecondViewController.m in Sources */,
 				5B14413D1E5DD95700056DE8 /* AppDelegate.m in Sources */,
+				5B1441571E5DE78500056DE8 /* VXFirstViewController.m in Sources */,
 				5B14413A1E5DD95700056DE8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,9 +401,12 @@
 		};
 		5B14414D1E5DD95700056DE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F548CF32F12E45F7DA845589 /* Pods-VXDIDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XZ5PNLT2U8;
 				INFOPLIST_FILE = VXDIDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.voidxin.VXDIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -279,9 +415,12 @@
 		};
 		5B14414E1E5DD95700056DE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C690B6BBB1D461BBD6B983C0 /* Pods-VXDIDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XZ5PNLT2U8;
 				INFOPLIST_FILE = VXDIDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.voidxin.VXDIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,6 +446,7 @@
 				5B14414E1E5DD95700056DE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
